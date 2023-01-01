@@ -1,2 +1,2 @@
-# Learned from JavaScript Mastery
-https://www.youtube.com/watch?v=377AQ0y6LPA
+# Learned from PedroTech
+https://www.youtube.com/watch?v=tEMrD9t85v4
