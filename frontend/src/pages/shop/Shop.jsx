@@ -1,11 +1,21 @@
 import React from "react";
-import { PRODUCTS } from "../../products";
-import { Product } from "./product";
+import { PRODUCTS } from "../../ProductData";
+import Product from "./Product";
 import "./shop.css";
 
 const Shop = () => {
     return (
-        <div>Shop</div>
+        <div className="shop">
+            <div className="shopTitle">
+                <h1>PedroTech Shop</h1>
+            </div>
+
+            <div className="products">
+                {PRODUCTS.map((product) => (
+                    <Product data={product} />
+                ))}
+            </div>
+        </div>
     )
 }
 
