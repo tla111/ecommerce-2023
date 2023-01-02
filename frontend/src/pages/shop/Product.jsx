@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ShopContext } from "../../context/shop-context";
+import { ShopContext } from "../../context/ShoppyContext";
 
 const Product = (props) => {
     const { id, productName, price, productImage } = props.data;
@@ -15,7 +15,7 @@ const Product = (props) => {
                 <p> ${price}</p>
             </div>
             <button className="addToCartBttn" onClick={() => addToCart(id)}>
-                Add To Cart {cartItemCount > 0 && <> ({cartItemCount})</>}
+                {/* Add To Cart {cartItemCount > 0 && <> ({cartItemCount})</>} */}
             </button>
         </div>
     )

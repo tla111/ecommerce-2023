@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { PRODUCTS } from "../products";
+import { PRODUCTS } from "../ProductData";
 
 export const ShopContext = createContext(null);
 
@@ -40,6 +40,8 @@ export const ShopContextProvider = (props) => {
     const checkout = () => {
         setCartItems(getDefaultCart());
     };
+
+    console.log(cartItems);
 
     const contextValue = {
         cartItems,

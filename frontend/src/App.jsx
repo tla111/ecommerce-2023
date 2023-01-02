@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Shop from "./pages/shop/Shop";
 import Contact from "./pages/contact";
 import Cart from "./pages/cart/Cart";
-import { ShopContextProvider } from "./context/shop-context";
+import { ShopContextProvider } from "./context/ShoppyContext";
 import './App.css'
 
 function App() {
