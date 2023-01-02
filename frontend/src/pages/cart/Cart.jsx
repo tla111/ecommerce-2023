@@ -3,6 +3,7 @@ import { ShopContext } from "../../context/ShoppyContext";
 import { PRODUCTS } from "../../ProductData";
 import { CartItem } from "./cart-item";
 import { useNavigate } from "react-router-dom";
+import "./cart.css";
 
 const Cart = () => {
     const { cartItems, getTotalCartAmount, checkout } = useContext(ShopContext);
